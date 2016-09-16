@@ -3,8 +3,9 @@ send sms using broadband and C#
 
 Add the SMSEngine class to your C# Project
 
+[CODE]
 Usage
-/*If you want to send 1 message*/
+/*If you want to send a message*/
 SmsEngine engine = new SmsEngine(port, interval);
 engine.openPort();
 
@@ -17,7 +18,7 @@ else
 //Failed
 }
 engine.closePort();
-
+[/CODE]
 
 
 
